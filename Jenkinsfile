@@ -17,7 +17,7 @@ pipeline {
 
         stage('run tests') {
             steps {
-                sh 'behave'
+                sh 'behave --junit'
             }
         }
     }
