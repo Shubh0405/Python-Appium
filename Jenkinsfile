@@ -11,13 +11,13 @@ pipeline {
             steps {
                 sh 'pip3 install selenium'
                 sh 'pip3 install Appium-Python-Client'
-                sh 'pip3 install behave'
+                sh 'pip3 install pytest-bdd'
             }
         }
 
         stage('run tests') {
             steps {
-                sh 'behave'
+                sh 'pytest'
             }
         }
     }

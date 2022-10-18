@@ -1,0 +1,15 @@
+<testsuite name="features.SearchBox.Search Box" tests="1" errors="0" failures="0" skipped="0" time="20.066744" timestamp="2022-10-18T19:25:37.148533" hostname="Shubhs-MacBook-Pro.local"><testcase classname="features.SearchBox.Search Box" name="User goes inside electronics category and searchs for iphone" status="passed" time="20.066744"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User goes inside electronics category and searchs for iphone
+    Given Flipkart app opens ... passed in 6.194s
+    And English Language Selected ... passed in 4.766s
+    And login flow skipped ... passed in 1.243s
+    When category page opens ... passed in 2.070s
+    Then Click on the seach icon and enter text iphone ... passed in 5.321s
+    And close app ... passed in 0.472s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

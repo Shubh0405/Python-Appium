@@ -1,8 +1,10 @@
-from behave import *
+from pytest_bdd import *
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+scenarios("../Features/CheckAllCategories.feature")
 
 @given(u'Flipkart app opens')
 def LaunchFlipkartApp(context):
