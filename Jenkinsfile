@@ -17,7 +17,11 @@ pipeline {
 
         stage('run tests') {
             steps {
+<<<<<<< HEAD
                 sh 'pytest'
+=======
+                sh 'behave --junit'
+>>>>>>> 09d5cbf3ad2e4347f0e95b29c7184eb9c8189080
             }
         }
     }
