@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 scenarios("../Features/CheckAllCategories.feature")
+scenarios("../Features/SearchBox.feature")
 
 @given(u'Flipkart app opens')
 def LaunchFlipkartApp(context):
